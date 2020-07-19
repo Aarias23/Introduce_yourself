@@ -61,6 +61,7 @@ p.lead {
 }
 
 .card-title {
+    font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
 }
 
@@ -71,7 +72,7 @@ p.lead {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .display-4 {
         font-size: 10px;
         font-weight: bold;
@@ -84,7 +85,15 @@ p.lead {
     }
 
     .introduce {
+        background: rgb(33, 37, 41);
+        border: 2px solid white;
+        color: white;
+        height: 20px;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        border-radius: 50px;
         font-size: 10px;
         font-weight: bold;
+        text-transform: uppercase;
     }
 }
