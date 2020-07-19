@@ -70,24 +70,15 @@ p.lead {
     text-transform: uppercase;
 }
 
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
 @media screen and (max-width: 600px) {
     .display-4 {
-        font-size: 17px;
+        font-size: 12px;
         text-transform: uppercase;
         font-weight: bold;
     }
 
     .card-title {
-        font-size: 12px;
+        font-size: 10px;
         font-weight: bold;
     }
 
